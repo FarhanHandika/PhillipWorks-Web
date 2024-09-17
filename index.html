@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moxhe Cake</title>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">MOXHE<span>CAKE</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#Home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#Product">Product</a>
+        <a href="#Signin">Sign in</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="Home">
+      <main class="content">
+        <h3>A pop-up pastryshop by the Moxhe Team!</h3>
+        <p>BECOME MOXHE'S</p>
+        <a href="#Product" class="cta">ORDER NOW</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+      <h2><span>Who w</span>e are</h2>
+      <div class="row">
+        <div class="content">
+          <p>
+            Moxhe fine pastries is the pop-up project of the team behind Moxhe
+            restaurant. We have been running our seafood restaurant, at 65b
+            Macpherson street Bronte, since 2015.
+          </p>
+          <br />
+          <p>
+            During the Covid lockdown we were presented with the opportunity to
+            transform ourselves into a take-away pastry and dessert venue
+            instead of our usual seafood offerings. Whilst the lockdowns came
+            with many challenges, we found that we really enjoyed making
+            pastries (and people seemed to really enjoy eating them!) and it
+            started a fire in our bellies and a hope in our hearts to one day
+            open pastry shop.
+          </p>
+          <br />
+          <p>
+            we produce small batches of cream, biscuits and chocolate but often,
+            as opposed to one big batch once a day, to keep the flavours vibrant
+          </p>
+          <br />
+          <p>
+            Just like at the restaurant, we always work with the best quality
+            seasonal ingredients. Don’t expect strawberry tart in winter or
+            peach in autumn, what we do evolves with what we can find
+            seasonally.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Product section start -->
+    <section id="Product" class="Product">
+      <img src="img/product0.jpg" />
+      <h2><span>OUR</span> MENU</h2>
+      <h1>cake</h1>
+
+      <!-- row 1 -->
+      <div class="row" id="row1">
+        <div class="menu-card">
+          <img src="img/cake3.jpg" alt="cake3" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-linzertorte-</h3>
+          <p class="menu-card-price">Rp:650.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/cake4.jpg" alt="cake4" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-classic lemon cake-</h3>
+          <p class="menu-card-price">Rp700.000</p>
+        </div>
+      </div>
+
+      <h1>tart</h1>
+
+      <!-- row 2 -->
+      <div class="row" id="row2">
+        <div class="menu-card">
+          <img src="img/cake7.jpg" alt="cake7" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-raspberry & black berry tart -</h3>
+          <p class="menu-card-price">Rp400.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/cake6.jpg" alt="cake6" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Classic Belgian rice tart-</h3>
+          <p class="menu-card-price">Rp389.000</p>
+        </div>
+      </div>
+
+      <h1>bread</h1>
+
+      <!-- row 3 -->
+      <div class="row" id="row3">
+        <div class="menu-card">
+          <img src="img/bread1.jpg" alt="bread1" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-Spelt & heritage flour-</h3>
+          <p class="menu-card-price">Rp150.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/bread2.jpg" alt="bread2" class="menu-card-img" />
+          <h3 class="menu-card-tittle">-spelt bread-</h3>
+          <p class="menu-card-price">Rp150.000</p>
+        </div>
+      </div>
+    </section>
+    <!-- Product section end -->
+
+    <!-- Signin start -->
+    <section id="Signin" class="Signin">
+      <h2>SUBSCRIBE NEWSLETTER</h2>
+      <p>
+        Dapatkan penawaran khusus dari Moxhe dengan berlangganan Newsletter
+        kami.
+      </p>
+
+      <div class="row">
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <button type="submit" class="btn">Sign in</button>
+        </form>
+      </div>
+    </section>
+    <!-- Signin end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#Home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#Product">Product</a>
+        <a href="#contact">Contact</a>
+        <a href="#Signin">Sign in</a>
+      </div>
+
+      <div class="credit">
+        <p>Copyright 2023 &copy; <span>Moxhe Cake</span></p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
